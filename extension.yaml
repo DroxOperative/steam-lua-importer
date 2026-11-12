@@ -1,0 +1,7 @@
+Id: SteamLuaImporter_b7f1e0a9-c094-44e8-8b08-d3b46f08d903
+Name: Steam Lua Importer
+Author: DroxOperative
+Version: 1.0.1
+Module: SteamLuaImporter.dll
+Type: GenericPlugin
+Icon: icon.png
