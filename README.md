@@ -22,11 +22,7 @@ Reads Steam app IDs from a folder of *.lua files and imports the resolved IDs as
 
 ## Usage and considerations
 
-<<<<<<< HEAD
 Main menu > Extensions > Steam Lua Importer:
-=======
-*Main menu > Extensions > Steam Lua Importer*:
->>>>>>> 7cb18fb25b6ca61edd3fa6a9996863f84574da21
 
 - **Import Steam games from lua folder** asks for the folder (e.g. `config/st-plugin`) the first time, then on every run:
   1. finds `[appID].lua` files (top level only; file contents are ignored),
