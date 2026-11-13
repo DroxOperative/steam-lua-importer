@@ -1,6 +1,6 @@
 # Steam Lua Importer (Playnite extension)
 
-Reads Steam app IDs from a folder of *.lua files and imports the resolved IDs as uninstalled Steam games owned by Playnite's Steam integration, then selects them so you can run Download Metadata with your default preferences.
+Reads Steam app IDs from a folder of *.lua files and imports the resolved IDs as uninstalled Steam games owned by Playnite's Steam integration, then selects them so you can readily perform bulk edit actions.
 
 ## Requirements
 
@@ -22,18 +22,14 @@ Reads Steam app IDs from a folder of *.lua files and imports the resolved IDs as
 
 ## Usage and considerations
 
-<<<<<<< HEAD
 Main menu > Extensions > Steam Lua Importer:
-=======
-*Main menu > Extensions > Steam Lua Importer*:
->>>>>>> 7cb18fb25b6ca61edd3fa6a9996863f84574da21
 
-- **Import Steam games from lua folder** asks for the folder (e.g. `config/st-plugin`) the first time, then on every run:
+- **Import Steam games from lua folder** asks for the folder the first time, then on every run:
   1. finds `[appID].lua` files (top level only; file contents are ignored),
   2. skips app IDs already in Playnite as Steam games or on your import exclusion list,
   3. looks up each new app ID's name and type on the Steam store,
   4. imports store types `game`, `demo`, `mod` and `advertising` (configurable; see below) as uninstalled Steam games, source = "Steam", and
-  5. selects the new games.  You must then *manually click Download Metadata* on the selection if you wish to pull in metadata at this point.
+  5. selects the new games.  You must then *manually click Download Metadata* on the selection should you wish to pull in metadata at this point.
 - **Change folder...** picks a different folder.
 - **Clear Steam lookup cache** forgets previous store lookups.
 
